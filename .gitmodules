@@ -1,0 +1,3 @@
+[submodule "HackNslashGame\\external\\spdlog"]
+	path = HackNslashGame\\external\\spdlog
+	url = https://github.com/gabime/spdlog
