@@ -161,9 +161,11 @@
   <ItemGroup>
     <ClCompile Include="src\Animation.cpp" />
     <ClCompile Include="src\AnimationSet.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
     <ClCompile Include="src\frame.cpp" />
     <ClCompile Include="src\globals.cpp" />
     <ClCompile Include="src\groupBuilder.cpp" />
+    <ClCompile Include="src\LivingEntity.cpp" />
     <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\res_path.cpp" />
     <ClCompile Include="src\randomNumber.cpp" />
@@ -175,6 +177,7 @@
   <ItemGroup>
     <ClInclude Include="src\Animation.h" />
     <ClInclude Include="src\AnimationSet.h" />
+    <ClInclude Include="src\Entity.h" />
     <ClInclude Include="src\frame.h" />
     <ClInclude Include="src\dataGroupType.h" />
     <ClInclude Include="src\globals.h" />
@@ -184,6 +187,7 @@
     <ClInclude Include="src\groupNumber.h" />
     <ClInclude Include="src\groupPosition.h" />
     <ClInclude Include="src\groupString.h" />
+    <ClInclude Include="src\LivingEntity.h" />
     <ClInclude Include="src\Log.h" />
     <ClInclude Include="src\includes.h" />
     <ClInclude Include="src\res_path.h" />
