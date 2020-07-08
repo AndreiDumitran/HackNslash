@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -159,20 +159,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\globals.cpp" />
     <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\res_path.cpp" />
     <ClCompile Include="src\randomNumber.cpp" />
     <ClCompile Include="src\drawing_functions.cpp" />
     <ClCompile Include="src\cleanup.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TimeController.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\globals.h" />
     <ClInclude Include="src\Log.h" />
     <ClInclude Include="src\includes.h" />
     <ClInclude Include="src\res_path.h" />
     <ClInclude Include="src\randomNumber.h" />
     <ClInclude Include="src\drawing_functions.h" />
     <ClInclude Include="src\cleanup.h" />
+    <ClInclude Include="src\TimeController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
